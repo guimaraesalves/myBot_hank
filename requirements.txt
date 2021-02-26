@@ -6,6 +6,41 @@ pip install SpeechRecognition
 
 vosk
 pip install vosk
+(base) mateus@hank:~/Documentos/GitHub/myBot_hank$ pip show vosk
+Name: vosk
+Version: 0.3.21
+Summary: Offline open source speech recognition API based on Kaldi and Vosk
+Home-page: https://github.com/alphacep/vosk-api
+Author: Alpha Cephei Inc
+Author-email: contact@alphacephei.com
+License: UNKNOWN
+Location: /home/mateus/anaconda3/lib/python3.8/site-packages
+Requires: cffi
+Required-by: 
+
+
+pyaudio:
+(base) mateus@hank:~/Documentos/GitHub/myBot_hank$ pip show pyaudio
+Name: PyAudio
+Version: 0.2.11
+Summary: PortAudio Python Bindings
+Home-page: http://people.csail.mit.edu/hubert/pyaudio/
+Author: Hubert Pham
+Author-email: UNKNOWN
+License: UNKNOWN
+Location: /home/mateus/anaconda3/lib/python3.8/site-packages
+Requires: 
+Required-by: 
+
+
+
+
+
+
+
+
+
+
 
 pyaudio para python
 conda config --add channels conda-forge 

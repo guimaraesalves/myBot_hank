@@ -8,6 +8,6 @@ Foco:
 
 
 Teconologias:
-    Reconhecimento de voz: (Google, VOSK)
+    Reconhecimento de voz: (Google - -> reconhecimento online, vosk para reconhecimento offline)
     Sintese de voz;
     Algum tipo de IA;
