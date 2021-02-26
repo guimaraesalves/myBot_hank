@@ -3,3 +3,10 @@ pip install ChatterBot
 
 SpeechRecognition 3.8.1
 pip install SpeechRecognition
+
+vosk
+pip install vosk
+
+pyaudio para python
+conda config --add channels conda-forge 
+(base) mateus@hank:~/Documentos/GitHub/myBot_hank$ conda install pyaudio
