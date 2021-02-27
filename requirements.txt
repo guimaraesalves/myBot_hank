@@ -33,15 +33,11 @@ Requires:
 Required-by: 
 
 
-
-
-
-
-
-
-
-
-
 pyaudio para python
 conda config --add channels conda-forge 
 (base) mateus@hank:~/Documentos/GitHub/myBot_hank$ conda install pyaudio
+
+
+
+
+

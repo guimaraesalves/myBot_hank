@@ -1,19 +1,19 @@
-from chatterbot.trainers import ListTrainer
 from chatterbot import ChatBot
+from chatterbot.trainers import ListTrainer
 
+# Create a new chat bot named Charlie
+chatbot = ChatBot('Hank')
 
+trainer = ListTrainer(chatbot)
 
-bot = ChatBot('TW Chat Bot')
+trainer.train([
+    "Hello, World!!",
+    "Seja bem vindo meu amigo Hank!!!",
+    "Olá, Mundo! Qual é o seu nome meu amigo humano?",
+    "Eu sou o Mateus."
+])
 
-conversa = ['Oi', 'Olá', 'Tudo bem?', 'Tudo ótimo', 'Você gosta de programar?', 'Sim, eu programo em Python']
+# Get a response to the input text 'I would like to book a flight.'
+response = chatbot.get_response('I would like to book a flight.')
 
-bot.set_trainer(ListTrainer)
-bot.train(conversa)
-
-while True:
-    pergunta = input("Usuário: ")
-    resposta = bot.get_response(pergunta)
-    if float(resposta.confidence) > 0.5:
-        print('TW Bot: ', resposta)
-    else:
-        print('TW suBot: Ainda não sei responder esta pergunta')
+print(response)
