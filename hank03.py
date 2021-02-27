@@ -15,7 +15,7 @@ bot = ChatBot(
     database_uri='mongodb://localhost:27017/chatterbot-database'
 )
 
-print('Hello World!! Olá Mundo vamos conversarv...')
+print('Hello World!! Olá Mundo vamos conversar...')
 
 while True:
     try:
