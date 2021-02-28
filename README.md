@@ -30,6 +30,8 @@ O ChatterBot possui recursos de avaliação de linguagem natural que permitem pr
    b - Usando o adaptador SQL --> hank04b.py
 Os dados do ChatterBot podem ser salvos e recuperados de bancos de dados SQL.
 
+5) aruivo localizado no meu proprio computador
+~/Documentos/GitHub/chatbot_hank/venvhank --> hank05.py
 
 
 
