@@ -1,0 +1,12 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "notebook_dir": "/home/mateus/Documentos/GitHub/Data-Science-Academy",
+  "password": false,
+  "pid": 8746,
+  "port": 8889,
+  "secure": false,
+  "sock": "",
+  "token": "05ec9c3ff340c989f962946b96e8afb694d0027187107489",
+  "url": "http://localhost:8889/"
+}

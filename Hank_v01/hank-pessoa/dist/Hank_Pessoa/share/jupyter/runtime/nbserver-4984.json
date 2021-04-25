@@ -1,0 +1,12 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "notebook_dir": "/home/mateus",
+  "password": false,
+  "pid": 4984,
+  "port": 8888,
+  "secure": false,
+  "sock": "",
+  "token": "31be13b30f1a55383b9d4fc5707b20df072c0b57936d3b86",
+  "url": "http://localhost:8888/"
+}
